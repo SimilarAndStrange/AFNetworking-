@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E476E71D0E5BF80012185D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E476E61D0E5BF80012185D /* main.m */; };
+		18E476EA1D0E5BF80012185D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E476E91D0E5BF80012185D /* AppDelegate.m */; };
+		18E476ED1D0E5BF80012185D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E476EC1D0E5BF80012185D /* ViewController.m */; };
+		18E476F01D0E5BF80012185D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E476EE1D0E5BF80012185D /* Main.storyboard */; };
+		18E476F21D0E5BF80012185D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E476F11D0E5BF80012185D /* Assets.xcassets */; };
+		18E476F51D0E5BF80012185D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E476F31D0E5BF80012185D /* LaunchScreen.storyboard */; };
+		18E477001D0E5BF80012185D /* WLXNetWorkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E476FF1D0E5BF80012185D /* WLXNetWorkingTests.m */; };
+		18E4770B1D0E5BF80012185D /* WLXNetWorkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4770A1D0E5BF80012185D /* WLXNetWorkingUITests.m */; };
+		18E477261D0E5C350012185D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4771A1D0E5C350012185D /* AFHTTPSessionManager.m */; };
+		18E477271D0E5C350012185D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4771D1D0E5C350012185D /* AFNetworkReachabilityManager.m */; };
+		18E477281D0E5C350012185D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4771F1D0E5C350012185D /* AFSecurityPolicy.m */; };
+		18E477291D0E5C350012185D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E477211D0E5C350012185D /* AFURLRequestSerialization.m */; };
+		18E4772A1D0E5C350012185D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E477231D0E5C350012185D /* AFURLResponseSerialization.m */; };
+		18E4772B1D0E5C350012185D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E477251D0E5C350012185D /* AFURLSessionManager.m */; };
+		18E4772E1D0E5C660012185D /* WLXSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4772D1D0E5C660012185D /* WLXSessionManager.m */; };
+		18E477311D0E5F350012185D /* WLXRequestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E477301D0E5F350012185D /* WLXRequestBase.m */; };
+		18E477341D0E99D30012185D /* WLXTextRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E477331D0E99D30012185D /* WLXTextRequest.m */; };
+		18E8AEA81D0FE02300835213 /* NSObject+WLXError.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8AEA71D0FE02300835213 /* NSObject+WLXError.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E476FC1D0E5BF80012185D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E476DA1D0E5BF80012185D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E476E11D0E5BF80012185D;
+			remoteInfo = WLXNetWorking;
+		};
+		18E477071D0E5BF80012185D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E476DA1D0E5BF80012185D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E476E11D0E5BF80012185D;
+			remoteInfo = WLXNetWorking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E476E21D0E5BF80012185D /* WLXNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLXNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E476E61D0E5BF80012185D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E476E81D0E5BF80012185D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E476E91D0E5BF80012185D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E476EB1D0E5BF80012185D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E476EC1D0E5BF80012185D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E476EF1D0E5BF80012185D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E476F11D0E5BF80012185D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E476F41D0E5BF80012185D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E476F61D0E5BF80012185D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E476FB1D0E5BF80012185D /* WLXNetWorkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLXNetWorkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E476FF1D0E5BF80012185D /* WLXNetWorkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLXNetWorkingTests.m; sourceTree = "<group>"; };
+		18E477011D0E5BF80012185D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E477061D0E5BF80012185D /* WLXNetWorkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLXNetWorkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E4770A1D0E5BF80012185D /* WLXNetWorkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLXNetWorkingUITests.m; sourceTree = "<group>"; };
+		18E4770C1D0E5BF80012185D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E477191D0E5C350012185D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		18E4771A1D0E5C350012185D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		18E4771B1D0E5C350012185D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		18E4771C1D0E5C350012185D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		18E4771D1D0E5C350012185D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		18E4771E1D0E5C350012185D /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		18E4771F1D0E5C350012185D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		18E477201D0E5C350012185D /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		18E477211D0E5C350012185D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		18E477221D0E5C350012185D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		18E477231D0E5C350012185D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		18E477241D0E5C350012185D /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		18E477251D0E5C350012185D /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		18E4772C1D0E5C660012185D /* WLXSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLXSessionManager.h; sourceTree = "<group>"; };
+		18E4772D1D0E5C660012185D /* WLXSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLXSessionManager.m; sourceTree = "<group>"; };
+		18E4772F1D0E5F350012185D /* WLXRequestBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLXRequestBase.h; sourceTree = "<group>"; };
+		18E477301D0E5F350012185D /* WLXRequestBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLXRequestBase.m; sourceTree = "<group>"; };
+		18E477321D0E99D30012185D /* WLXTextRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLXTextRequest.h; sourceTree = "<group>"; };
+		18E477331D0E99D30012185D /* WLXTextRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLXTextRequest.m; sourceTree = "<group>"; };
+		18E8AEA61D0FE02300835213 /* NSObject+WLXError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLXError.h"; sourceTree = "<group>"; };
+		18E8AEA71D0FE02300835213 /* NSObject+WLXError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLXError.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E476DF1D0E5BF80012185D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E476F81D0E5BF80012185D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E477031D0E5BF80012185D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E476D91D0E5BF80012185D = {
+			isa = PBXGroup;
+			children = (
+				18E476E41D0E5BF80012185D /* WLXNetWorking */,
+				18E476FE1D0E5BF80012185D /* WLXNetWorkingTests */,
+				18E477091D0E5BF80012185D /* WLXNetWorkingUITests */,
+				18E476E31D0E5BF80012185D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E476E31D0E5BF80012185D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E476E21D0E5BF80012185D /* WLXNetWorking.app */,
+				18E476FB1D0E5BF80012185D /* WLXNetWorkingTests.xctest */,
+				18E477061D0E5BF80012185D /* WLXNetWorkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E476E41D0E5BF80012185D /* WLXNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				18E477181D0E5C350012185D /* AFNetworking */,
+				18E476E81D0E5BF80012185D /* AppDelegate.h */,
+				18E476E91D0E5BF80012185D /* AppDelegate.m */,
+				18E476EB1D0E5BF80012185D /* ViewController.h */,
+				18E476EC1D0E5BF80012185D /* ViewController.m */,
+				18E4772C1D0E5C660012185D /* WLXSessionManager.h */,
+				18E4772D1D0E5C660012185D /* WLXSessionManager.m */,
+				18E4772F1D0E5F350012185D /* WLXRequestBase.h */,
+				18E477301D0E5F350012185D /* WLXRequestBase.m */,
+				18E477321D0E99D30012185D /* WLXTextRequest.h */,
+				18E477331D0E99D30012185D /* WLXTextRequest.m */,
+				18E8AEA61D0FE02300835213 /* NSObject+WLXError.h */,
+				18E8AEA71D0FE02300835213 /* NSObject+WLXError.m */,
+				18E476EE1D0E5BF80012185D /* Main.storyboard */,
+				18E476F11D0E5BF80012185D /* Assets.xcassets */,
+				18E476F31D0E5BF80012185D /* LaunchScreen.storyboard */,
+				18E476F61D0E5BF80012185D /* Info.plist */,
+				18E476E51D0E5BF80012185D /* Supporting Files */,
+			);
+			path = WLXNetWorking;
+			sourceTree = "<group>";
+		};
+		18E476E51D0E5BF80012185D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E476E61D0E5BF80012185D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E476FE1D0E5BF80012185D /* WLXNetWorkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E476FF1D0E5BF80012185D /* WLXNetWorkingTests.m */,
+				18E477011D0E5BF80012185D /* Info.plist */,
+			);
+			path = WLXNetWorkingTests;
+			sourceTree = "<group>";
+		};
+		18E477091D0E5BF80012185D /* WLXNetWorkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E4770A1D0E5BF80012185D /* WLXNetWorkingUITests.m */,
+				18E4770C1D0E5BF80012185D /* Info.plist */,
+			);
+			path = WLXNetWorkingUITests;
+			sourceTree = "<group>";
+		};
+		18E477181D0E5C350012185D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				18E477191D0E5C350012185D /* AFHTTPSessionManager.h */,
+				18E4771A1D0E5C350012185D /* AFHTTPSessionManager.m */,
+				18E4771B1D0E5C350012185D /* AFNetworking.h */,
+				18E4771C1D0E5C350012185D /* AFNetworkReachabilityManager.h */,
+				18E4771D1D0E5C350012185D /* AFNetworkReachabilityManager.m */,
+				18E4771E1D0E5C350012185D /* AFSecurityPolicy.h */,
+				18E4771F1D0E5C350012185D /* AFSecurityPolicy.m */,
+				18E477201D0E5C350012185D /* AFURLRequestSerialization.h */,
+				18E477211D0E5C350012185D /* AFURLRequestSerialization.m */,
+				18E477221D0E5C350012185D /* AFURLResponseSerialization.h */,
+				18E477231D0E5C350012185D /* AFURLResponseSerialization.m */,
+				18E477241D0E5C350012185D /* AFURLSessionManager.h */,
+				18E477251D0E5C350012185D /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E476E11D0E5BF80012185D /* WLXNetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E4770F1D0E5BF80012185D /* Build configuration list for PBXNativeTarget "WLXNetWorking" */;
+			buildPhases = (
+				18E476DE1D0E5BF80012185D /* Sources */,
+				18E476DF1D0E5BF80012185D /* Frameworks */,
+				18E476E01D0E5BF80012185D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLXNetWorking;
+			productName = WLXNetWorking;
+			productReference = 18E476E21D0E5BF80012185D /* WLXNetWorking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E476FA1D0E5BF80012185D /* WLXNetWorkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E477121D0E5BF80012185D /* Build configuration list for PBXNativeTarget "WLXNetWorkingTests" */;
+			buildPhases = (
+				18E476F71D0E5BF80012185D /* Sources */,
+				18E476F81D0E5BF80012185D /* Frameworks */,
+				18E476F91D0E5BF80012185D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E476FD1D0E5BF80012185D /* PBXTargetDependency */,
+			);
+			name = WLXNetWorkingTests;
+			productName = WLXNetWorkingTests;
+			productReference = 18E476FB1D0E5BF80012185D /* WLXNetWorkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E477051D0E5BF80012185D /* WLXNetWorkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E477151D0E5BF80012185D /* Build configuration list for PBXNativeTarget "WLXNetWorkingUITests" */;
+			buildPhases = (
+				18E477021D0E5BF80012185D /* Sources */,
+				18E477031D0E5BF80012185D /* Frameworks */,
+				18E477041D0E5BF80012185D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E477081D0E5BF80012185D /* PBXTargetDependency */,
+			);
+			name = WLXNetWorkingUITests;
+			productName = WLXNetWorkingUITests;
+			productReference = 18E477061D0E5BF80012185D /* WLXNetWorkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E476DA1D0E5BF80012185D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Bangyang;
+				TargetAttributes = {
+					18E476E11D0E5BF80012185D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					18E476FA1D0E5BF80012185D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18E476E11D0E5BF80012185D;
+					};
+					18E477051D0E5BF80012185D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18E476E11D0E5BF80012185D;
+					};
+				};
+			};
+			buildConfigurationList = 18E476DD1D0E5BF80012185D /* Build configuration list for PBXProject "WLXNetWorking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E476D91D0E5BF80012185D;
+			productRefGroup = 18E476E31D0E5BF80012185D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E476E11D0E5BF80012185D /* WLXNetWorking */,
+				18E476FA1D0E5BF80012185D /* WLXNetWorkingTests */,
+				18E477051D0E5BF80012185D /* WLXNetWorkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E476E01D0E5BF80012185D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E476F51D0E5BF80012185D /* LaunchScreen.storyboard in Resources */,
+				18E476F21D0E5BF80012185D /* Assets.xcassets in Resources */,
+				18E476F01D0E5BF80012185D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E476F91D0E5BF80012185D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E477041D0E5BF80012185D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E476DE1D0E5BF80012185D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E477341D0E99D30012185D /* WLXTextRequest.m in Sources */,
+				18E4772B1D0E5C350012185D /* AFURLSessionManager.m in Sources */,
+				18E8AEA81D0FE02300835213 /* NSObject+WLXError.m in Sources */,
+				18E476ED1D0E5BF80012185D /* ViewController.m in Sources */,
+				18E476EA1D0E5BF80012185D /* AppDelegate.m in Sources */,
+				18E477271D0E5C350012185D /* AFNetworkReachabilityManager.m in Sources */,
+				18E476E71D0E5BF80012185D /* main.m in Sources */,
+				18E477281D0E5C350012185D /* AFSecurityPolicy.m in Sources */,
+				18E477291D0E5C350012185D /* AFURLRequestSerialization.m in Sources */,
+				18E4772A1D0E5C350012185D /* AFURLResponseSerialization.m in Sources */,
+				18E477311D0E5F350012185D /* WLXRequestBase.m in Sources */,
+				18E4772E1D0E5C660012185D /* WLXSessionManager.m in Sources */,
+				18E477261D0E5C350012185D /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E476F71D0E5BF80012185D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E477001D0E5BF80012185D /* WLXNetWorkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E477021D0E5BF80012185D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4770B1D0E5BF80012185D /* WLXNetWorkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E476FD1D0E5BF80012185D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E476E11D0E5BF80012185D /* WLXNetWorking */;
+			targetProxy = 18E476FC1D0E5BF80012185D /* PBXContainerItemProxy */;
+		};
+		18E477081D0E5BF80012185D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E476E11D0E5BF80012185D /* WLXNetWorking */;
+			targetProxy = 18E477071D0E5BF80012185D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E476EE1D0E5BF80012185D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E476EF1D0E5BF80012185D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E476F31D0E5BF80012185D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E476F41D0E5BF80012185D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E4770D1D0E5BF80012185D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E4770E1D0E5BF80012185D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E477101D0E5BF80012185D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WLXNetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlx.swift.WLXNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E477111D0E5BF80012185D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WLXNetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlx.swift.WLXNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18E477131D0E5BF80012185D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WLXNetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlx.swift.WLXNetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLXNetWorking.app/WLXNetWorking";
+			};
+			name = Debug;
+		};
+		18E477141D0E5BF80012185D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WLXNetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlx.swift.WLXNetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLXNetWorking.app/WLXNetWorking";
+			};
+			name = Release;
+		};
+		18E477161D0E5BF80012185D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WLXNetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlx.swift.WLXNetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WLXNetWorking;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18E477171D0E5BF80012185D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WLXNetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlx.swift.WLXNetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WLXNetWorking;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E476DD1D0E5BF80012185D /* Build configuration list for PBXProject "WLXNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E4770D1D0E5BF80012185D /* Debug */,
+				18E4770E1D0E5BF80012185D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E4770F1D0E5BF80012185D /* Build configuration list for PBXNativeTarget "WLXNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E477101D0E5BF80012185D /* Debug */,
+				18E477111D0E5BF80012185D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E477121D0E5BF80012185D /* Build configuration list for PBXNativeTarget "WLXNetWorkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E477131D0E5BF80012185D /* Debug */,
+				18E477141D0E5BF80012185D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E477151D0E5BF80012185D /* Build configuration list for PBXNativeTarget "WLXNetWorkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E477161D0E5BF80012185D /* Debug */,
+				18E477171D0E5BF80012185D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E476DA1D0E5BF80012185D /* Project object */;
+}
