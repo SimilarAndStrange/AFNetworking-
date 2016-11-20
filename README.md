@@ -1,0 +1,12 @@
+# AFNetworking-
+基于AFNetworking3.0网络请求封装
+
+WLXSessionManager继承AFHTTPSessionManager，用于给请求设置一些必须的参数，同时WLXSessionManager也是一个单例。
+
+WLXRequestBase封装了AFN的请求，包含了POST，GET两种方式的请求，并且还包含了上传数据里面带了图片，但是图片必须是NSData的对象。通过baseParams这个字典设置一些公共参数。
+
+WLXTextRequest继承WLXRequestBase，只需要在WLXTextRequest.m文件里面做一些基本的设置就好。
+
+通过WLXTextRequest这个类，发起请求，拿到对应的json数据。
+
+具体的详细代码介绍请看这个链接：http://www.jianshu.com/p/6856bd9050fc
